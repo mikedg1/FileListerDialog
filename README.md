@@ -50,7 +50,7 @@ After importing the library you can use FileListerDialog to list the files and p
    ```   
 2. Set OnFileSelectedListener so that you get what file/ directory has been selected
    ```   
-      filelister.setOnFileSelectedListener(new OnFileSelectedListener() {
+      fileListerDialog.setOnFileSelectedListener(new OnFileSelectedListener() {
             @Override
             public void onFileSelected(File file, String path) {
                   //your code here
